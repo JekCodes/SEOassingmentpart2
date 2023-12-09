@@ -1,0 +1,122 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF6F61;
+    color: white;
+    border-radius: 80px; /* Combine border radius properties */
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+    margin: 10px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    margin:10px;
+    gap: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF6F61;
+    padding: 20px;
+    min-width: 200px; /* Set a minimum width for the navigation bar */
+    border-radius: 60px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav-bar ul li {
+    margin-top: 90px; /* Adjust margin for spacing */
+}
+
+.nav-bar a:hover {
+    background-color: black;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1;
+    background-color: #FF6F61;
+    border-radius: 60px;
+    color: white;
+}
+
+p {
+    margin-top: 10px; 
+    padding: 10px;
+    font-size: 18px ;
+}
+footer {
+    background-color: #FF6F61;
+    color: #fff;
+    margin: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 60px;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    height: 30px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.seoimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seoimage img {
+    max-width: 100%;
+    border-radius: 60px;
+    padding: 50px;
+}
+.ErrorImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ErrorImage img {
+    border-radius: 20px;
+}
+.vcard {
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    top: 100px;
+  }
+ul {
+    text-decoration: none;
+}
+.contacts ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacts ul li {
+    margin-top: 90px;
+}
+
+.contacts a:hover {
+    background-color: black;
+}

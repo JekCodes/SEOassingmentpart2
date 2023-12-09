@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Izakaya Bookings</title>
+    <link rel="stylesheet" href="../CSS/newform.css">
+</head>
+<body>
+<header class="Booking-Header">
+    <h1><a href="../index.html">Sakura Izakaya</a></h1>
+</header>
+    <nav>
+        <ul class="Nav-Links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="bookings.html">Bookings</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<form action="#" method="post" id="theForm">
+    <fieldset><legend>Register</legend>
+        <h2>Please fill in your details below to organise a booking!</h2>
+        <div class="two"><label for="firstName">First Name<span class="tooltip">Please provide first name</span></label><input type="text" name="firstName" id="firstName"></div>
+        <div class="two"><label for="lastName">Last Name<span class="tooltip">Please provide last name</span></label><input type="text" name="lastName" id="lastName"></div>
+        <div class="two"><label for="email">Email Address<span class="tooltip">Please provide email address with @ eg. example@gmail.com</span></label><input type="email" name="email" id="email" ></div>
+        <div class="two"><label for="phone">Phone Number<span class="tooltip">In the format of an australian mobile eg. 0412 345 678</span></label><input type="text" name="phone" id="phone"></div>
+        <div class="two"><label for="city">City<span class="tooltip">Please provide nearest city</span></label><input type="text" name="city" id="city"></div>
+        <div class="two"><label for="state">State<span class="tooltip">Please provide state</span></label><select name="state" id="state">
+            <option value="">Select a State</option> 
+            <option value="WA">Western Australia</option> 
+            <option value="NT">Northern Territory</option> 
+            <option value="SA">South Australia</option> 
+            <option value="QLD">Queensland</option> 
+            <option value="NSW">New South Wales</option> 
+            <option value="VIC">Victoria</option>  
+            <option value="TAS">Tasmania</option>         
+        </select></div>    
+        <div class="two"><label for="zip">Post Code<span class="tooltip">Please enter ZIP code in 4 digits eg. 6000</span></label><input type="text" name="zip" id="zip"></div>
+        <div class="one"><input type="checkbox" name="terms" id="terms" required> I agree to the terms, whatever they are.</div>
+        <div class="one"><input type="submit" value="Register" id="submit"></div>
+    </fieldset>
+</form>
+<script src="../JS/errorMessages.js"></script>
+<script src="../JS/register.js"></script>
+<script src="../JS/utilities.js"></script>
+<footer class="footer">
+    <div class="footer-content">
+        <p><a href="#">&#169; 2023 Sakura Izakaya. All rights reserved.</a></p>
+    </div>
+  </footer>
+</body>
+</html> 
