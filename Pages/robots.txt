@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /private/
-Disallow: /restricted/
-Allow: /public/
-Sitemap: https://japaneserestraunt.com/sitemap.xml
